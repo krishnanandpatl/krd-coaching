@@ -1,0 +1,21 @@
+.navbar{
+  background-color: rgb(22, 5, 29);
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title{
+  color: rgb(247, 255, 252);
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.title:hover{
+  cursor: pointer;
+  color: rgb(8, 222, 172);
+}
+.auth{
+  display: flex;
+  justify-items: space-between;
+}

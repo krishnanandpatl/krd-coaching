@@ -15,7 +15,7 @@
   cursor: pointer;
   color: rgb(8, 222, 172);
 }
-.auth{
+.navLeft{
   display: flex;
   justify-items: space-between;
 }

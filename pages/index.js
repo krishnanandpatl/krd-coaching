@@ -1,9 +1,14 @@
 import Head from 'next/head'
-import Image from 'next/image'
 
 export default function Home() {
   return (
-    <h1>Homie
-    </h1>
+    <>
+    <Head>
+      <title>KRD | Home</title>
+    </Head>
+    <div>
+    <h1>Homie</h1>
+    </div>
+    </>
   )
 }

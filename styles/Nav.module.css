@@ -28,3 +28,10 @@
 .batches{
   margin-right: 10px;
 }
+.footer{
+  color: black;
+  position: relative;
+  padding: auto;
+  bottom: 0;
+  width: 100%;
+}

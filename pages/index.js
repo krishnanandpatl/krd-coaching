@@ -1,4 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -6,8 +8,9 @@ export default function Home() {
     <Head>
       <title>KRD | Home</title>
     </Head>
-    <div>
-    <h1>Homie</h1>
+    <div className={styles.banner}>
+      <Image src='/banner/banner1.jpg' height='500vh' width='300vw'/>
+      <Image src='/banner/banner2.jpg' height='500vh' width='300vw'/>
     </div>
     </>
   )

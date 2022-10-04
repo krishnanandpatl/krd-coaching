@@ -1,14 +1,41 @@
 [
     {
     "id":1,
-    "name":"Chandresh Chaudhary"
+    "name":"Chandresh Sir",
+    "img":"https://scontent.fknu1-3.fna.fbcdn.net/v/t1.6435-1/128773089_372512037149173_2062271064741104015_n.jpg?stp=dst-jpg_p320x320&_nc_cat=110&ccb=1-7&_nc_sid=7206a8&_nc_ohc=j6FNLR370hAAX9amYcW&_nc_oc=AQmWArXjnM6nHQ0_9_Ni4ygZR65ah0sX9_UESek6Yu7744zzLlP0ctvE2nLhgxcZU9M&_nc_ht=scontent.fknu1-3.fna&oh=00_AT-7TyJUezgLVRaFNblMTYX-U3Oml8bvYkMhddgN6aARRg&oe=6362CB0A"
     },
     {
         "id":2,
-        "name":"XYZ"
+        "name":"Ravindra Sir",
+        "img":""
     },
     {
         "id":3,
-        "name":"Sample"
+        "name":"Devendra Sir",
+        "img":""
+    },
+    {
+        "id":4,
+        "name":"Qayoom Sir",
+        "img":""
+    },
+    {
+        "id":5,
+        "name":"Rampal Sir",
+        "img":""
+    },
+    {
+        "id":6,
+        "name":"Rajkishor Sir",
+        "img":""
+    },
+    {
+        "id":7,
+        "name":"Shailendra Sir",
+        "img":""
+    },{
+        "id":8,
+        "name":"Sample6",
+        "img":""
     }
 ]

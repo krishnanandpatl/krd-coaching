@@ -16,12 +16,15 @@ return (
     <Head>
         <title>KRD | Teachers</title>
     </Head>
-    <div>
+    <div className={styles.teachers}>
        {teachers.map(teacher=>(
         <div key={teacher.id}>
-            <a className={styles.single}>
-                <h3>{teacher.name}</h3>
-            </a>
+            <div className={styles.teacherContainer}>
+                <div className={styles.imgContainer}>
+                    <img src={teacher.img} alt="img" height="223px" width="198px" />
+                </div>
+                <a className={styles.name}>{teacher.name}</a>
+            </div>
         </div>
        ))}
     </div>

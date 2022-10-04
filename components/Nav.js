@@ -7,6 +7,7 @@ const Nav=()=>{
     <div className={styles.navbar}>
         <Link href='/'><a className={styles.title}>KRD</a></Link>
         <div className={styles.navLeft}>
+            <a className={styles.batches}>Batches</a>
             <Link href='/teachers'><a className={styles.teachers}>Teachers</a></Link>
             <Link href='/login'><a className={styles.login}>Login</a></Link>
         </div>

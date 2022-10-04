@@ -7,8 +7,8 @@ const Nav=()=>{
     <div className={styles.navbar}>
         <Link href='/'><a className={styles.title}>KRD</a></Link>
         <div className={styles.navLeft}>
-            <Link href='/teachers'><a>Teachers</a></Link>
-            <Link href='/login'><a>Login</a></Link>
+            <Link href='/teachers'><a className={styles.teachers}>Teachers</a></Link>
+            <Link href='/login'><a className={styles.login}>Login</a></Link>
         </div>
     </div>
     </>

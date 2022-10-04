@@ -19,3 +19,9 @@
   display: flex;
   justify-items: space-between;
 }
+.teachers{
+  margin-right: 10px;
+}
+.login{
+  margin-right: 10px;
+}

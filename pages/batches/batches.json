@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "name":"UPP"
+    },
+    {
+        "id":2,
+        "name":"NET"
+    },
+    {
+        "id":3,
+        "name":"SSC"
+    },
+    {
+        "id":4,
+        "name":"RAILWAY"
+    },
+    {
+        "id":5,
+        "name":"BANKING"
+    },
+    {
+        "id":6,
+        "name":"SCHOOLING"
+    },
+    {
+        "id":7,
+        "name":"AGNIPATH"
+    }
+]

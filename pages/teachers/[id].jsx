@@ -12,12 +12,17 @@ export const getStaticPaths=async()=>{
 }
 export const getStaticProps=async(context)=>{
     const id=context.params.id;
-    const data=teachers.id;
-    console.log(data)
+    const data=teachers[id-1];
+    return {
+        props:{tDetail:data}
+    }
 }
-const Teacher=()=>{
+const Teacher=({tDetail})=>{
     return (
-        <h1>Teacher </h1>
+        <>
+        <h1>{tDetail.name} </h1>
+        <h1>{tDetail.contact}</h1>
+        </>
     )
     }
     export default Teacher;

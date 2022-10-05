@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../../styles/Teacher.module.css';
 import teachers from './teacher.json'
+import Link from 'next/link'
 
 //export const getStaticProps=async()=>{
     //const res=await fetch("../../public/teacher.json");
@@ -23,7 +24,7 @@ return (
                 <div className={styles.imgContainer}>
                     <img src={teacher.img} alt="img" height="223px" width="198px" />
                 </div>
-                <a className={styles.name}>{teacher.name}</a>
+                <Link href={'/teachers/'+teacher.id}><a className={styles.name}>{teacher.name}</a></Link>
             </div>
         </div>
        ))}

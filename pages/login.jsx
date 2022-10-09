@@ -1,5 +1,7 @@
 import Head from 'next/head';
-import styles from '../../styles/Login.module.css'
+import styles from '../styles/Auth.module.css'
+import Link from 'next/link'
+
 
 const Login=()=>{
     return (
@@ -9,16 +11,17 @@ const Login=()=>{
     </Head>
     <div className={styles.loginContainer}>
         <div className={styles.data}>
-            <p>Enter email:</p>
+            <h1>LOGIN</h1>
+            <p>Enter Email:</p>
             <input type="email" placeholder='Email'></input>
             <p>Enter Password:</p>
             <input type="text" placeholder='Password'></input>
-        </div>
-        <div className={styles.button}>
-            <button>Signup</button>
             <button>Login</button>
+            <div className={styles.bottom}>
+            <Link href='/signup'><a>Signup</a></Link>
+            <Link href='/forgotpassword'><a>Forgot Password?</a></Link>
+            </div>
         </div>
-        <a>Forgot Password?</a>
     </div>
     </>
     )

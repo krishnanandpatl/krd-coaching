@@ -29,9 +29,10 @@
   margin-right: 10px;
 }
 .footer{
-  color: black;
-  position: relative;
-  padding: auto;
+  position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
+  color: white;
+  text-align: center;
 }

@@ -1,15 +1,13 @@
-import Head from 'next/head';
-import styles from '../styles/Auth.module.css'
-import Link from 'next/link'
-
-
-const Login=()=>{
+import Head from 'next/head'
+import styles from '../../styles/Batch.module.css'
+import batches from './batches.json'
+const Batches=()=>{
     return (
         <>
         <Head>
             <>
-      <title>KRD | Login</title>
-      <meta charset="UTF-8"></meta>
+            <title>KRD | Batches</title>
+            <meta charset="UTF-8"></meta>
       <meta name="description" content="Prepare for all type of Government Exams with the best Facility and teachers from Prayagraj in Maharajganj only."></meta>
       <meta name="keywords" content="coaching,maharajganj,best teacher maharajganj,
        krd maharajganj,climax coaching, upp maharajganj, tet maharajganj, pet maharajganj,
@@ -20,22 +18,20 @@ const Login=()=>{
       <meta name="author" content="Krishna Nand Patel"></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </>
-    </Head>
-    <div className={styles.loginContainer}>
-        <div className={styles.data}>
-            <h1>LOGIN</h1>
-            <p>Enter Email:</p>
-            <input type="email" placeholder='Email'></input>
-            <p>Enter Password:</p>
-            <input type="text" placeholder='Password'></input>
-            <button>Login</button>
-            <div className={styles.bottom}>
-            <Link href='/signup'><a>Signup</a></Link>
-            <Link href='/forgotpassword'><a>Forgot Password?</a></Link>
-            </div>
+        </Head>
+        <div>
+            {batches.map(batch=>(
+                <div key={batch.id}>
+                    <div className={styles.batchContainer}>
+                        <div className={styles.picContainer}></div>
+                        <div className={styles.batchDetail}>
+
+                        </div>
+                    </div>
+                </div>
+            ))}
         </div>
-    </div>
-    </>
+        </>
     )
 }
-export default Login;
+export default Batches;
